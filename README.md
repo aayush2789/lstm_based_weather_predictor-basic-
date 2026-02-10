@@ -63,7 +63,7 @@ Follow these steps to set up the project:
         MONGO_URI=<Your MongoDB Connection String>
         WEATHER_API_KEY=<Your OpenWeatherMap API Key>
         ```
-    *   Replace `<Your MongoDB Connection String>` with your actual MongoDB connection string.  This string should include the username, password, and database details.  Example: `mongodb+srv://<user>:<password>@cluster0.example.mongodb.net/<database_name>?retryWrites=true&w=majority`.  The existing code snippets suggest using the string: `mongodb+srv://aayuk279:qwerty123@cluster0.y8lt7.mongodb.net/?retryWrites=true&w=majority` and database name `weather_db`. Make sure to replace the placeholders with your actual credentials.
+    *   Replace `<Your MongoDB Connection String>` with your actual MongoDB connection string.  Make sure to replace the placeholders with your actual credentials.
 
     *   Replace `<Your OpenWeatherMap API Key>` with your actual API key obtained from [OpenWeatherMap](https://openweathermap.org/).
 
