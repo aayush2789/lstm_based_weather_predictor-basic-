@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 database_name='weather_db'
-mongo_uri="mongodb+srv://aayuk279:qwerty123@cluster0.9vjeg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+mongo_uri=os.getenv("MONGO_URI")
 collection_name='current_weather_data'
 def fetchDataFromDb():
     client=MongoClient(mongo_uri)
